@@ -12,6 +12,7 @@ body {
 
 .sizing-div {
     max-width: 1400px;
+    margin: auto;
 }
 
 .main-nav {
@@ -37,4 +38,14 @@ body {
     display: flex;
     align-items: center;
     gap: 16px;
+}
+
+.img-placeholder {
+    width: 500px;
+    height: 250px;
+    background: #6D747D;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
