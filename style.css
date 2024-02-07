@@ -75,6 +75,10 @@ body {
     text-decoration: none;
 }
 
+.main-nav .secondary:hover {
+    font-weight: bold;
+}
+
 .main-nav .secondary {
     color: #E5E7EB;
     font-size: 18px;
