@@ -201,7 +201,7 @@ blockquote footer {
     font-weight: bold;
     color: white;
     display: inline-block;
-    align-self: flex-end;
+    align-self: center;
     font-size: 18px;
 }
 
@@ -209,3 +209,13 @@ blockquote footer {
     background: white;
     color: black;
 }
+
+/* Footer */
+.page-footer {
+    text-align: center;
+    background: #1F2937;
+    padding: 40px;
+    color: white;
+    font-size: 18px;
+}
+
