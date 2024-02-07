@@ -104,6 +104,11 @@ body {
 .hero-img {
     width: 400px;
     height: auto;
+    transition: transform 1s;
+}
+
+.hero-img:hover {
+    transform: scale(1.3);
 }
 
 .random-content {
