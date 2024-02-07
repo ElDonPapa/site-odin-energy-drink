@@ -35,8 +35,8 @@ body {
     gap: 16px;
 }
 
-.hero-content button {
-    font-family: Roboto, sans-serif;
+.hero-cta {
+    text-decoration: none;
     padding: 8px 24px;
     font-weight: bold;
     background-color: #3882F6;
@@ -44,6 +44,12 @@ body {
     border: none;
     border-radius: 8px;
     color: white;
+    align-self: flex-start;
+}
+
+.hero-cta:hover {
+    background: white;
+    color: #3882F6;
 }
 
 .sizing-div {
