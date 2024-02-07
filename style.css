@@ -29,6 +29,8 @@ body {
     gap: 48px;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
 }
 
 .hero-content {
@@ -206,6 +208,8 @@ blockquote footer {
     border-radius: 8px;
     display: flex;
     justify-content: space-around;
+    gap: 32px;
+    flex-wrap: wrap;
 }
 
 .footer-cta h3 {
