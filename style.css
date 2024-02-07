@@ -140,6 +140,11 @@ body {
 .card-image {
     width: 150px;
     height: auto;
+    transition: transform 0.5s;
+}
+
+.card-image:hover {
+    transform: translateY(-20px);
 }
 
 .random-card {
